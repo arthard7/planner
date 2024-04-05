@@ -18,8 +18,10 @@
 
 body {
   @apply text-base overflow-hidden;
-  font-family: var(--font-zen), sans-serif;
-  color: rgb(var(--foreground-rgb));
+  font-family: var(--font-zen), "Roboto Light";
+  //color: rgb(var(--foreground-rgb));
+  color: #e9ecec;
+
   background-color: #0e0f0f;
 
   @media (max-width: 1200px) {

@@ -1,8 +1,8 @@
 import {IBase} from "@/types/root.types";
 
-export interface AuthTypes{
+export interface AuthTypes {
     email: string,
-    password: string
+    password: string,
 }
 
 export interface User extends IBase{
